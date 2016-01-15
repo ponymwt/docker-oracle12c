@@ -1,4 +1,4 @@
-REPO = bofm/oracle12c
+REPO = mike/oracle12c
 NAME = oracle
 CURDIR = `pwd`
 OPTS =
