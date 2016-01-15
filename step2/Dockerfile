@@ -1,5 +1,5 @@
-FROM bofm/oracle12c:installed
-MAINTAINER bofm
+FROM mike/oracle12c:installed
+MAINTAINER mike
 
 RUN mkdir /data && chmod 777 /data
 COPY db_template.dbt /tmp/
